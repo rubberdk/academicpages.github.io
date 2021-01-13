@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dongho Kang / Rubberdk Robotics"
+title                    : "Rubberdk Robotics"
 title_separator          : "-"
 name                     : &name "Rubberdk"
 description              : &description "personal description"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "www.github.com/rubberdk"
+  github           : "rubberdk"
   google_plus      :
   keybase          :
   instagram        :
