@@ -4,7 +4,6 @@ excerpt: "Rethink Robotics' Baxter sorts and builds towers with plastic cups.<br
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
 
 # Project Overview
 This is a ROS project developed as part of ME495 - Embedded Systems in Robotics course at Northwestern University.
@@ -18,13 +17,13 @@ https://github.com/rubberdk/final-project-fast-tower
 # Demonstration
 
 10 Cups Tower <br/>
-![](http://img.youtube.com/vi/YzLpgf8ozkA/0.jpg)](http://www.youtube.com/watch?v=YzLpgf8ozkA "")
+[![](http://img.youtube.com/vi/YzLpgf8ozkA/0.jpg)](http://www.youtube.com/watch?v=YzLpgf8ozkA "")
 
 6 Cups Tower <br/>
-![](http://img.youtube.com/vi/H2U9Fk785CE/0.jpg)](http://www.youtube.com/watch?v=H2U9Fk785CE "")
+[![](http://img.youtube.com/vi/H2U9Fk785CE/0.jpg)](http://www.youtube.com/watch?v=H2U9Fk785CE "")
 
 6 Cups sorting <br/>
-![](http://img.youtube.com/vi/yFVovQYhw8g/0.jpg)](http://www.youtube.com/watch?v=yFVovQYhw8g "")
+[![](http://img.youtube.com/vi/yFVovQYhw8g/0.jpg)](http://www.youtube.com/watch?v=yFVovQYhw8g "")
 
 # Project Details
 
