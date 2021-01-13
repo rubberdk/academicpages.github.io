@@ -1,7 +1,7 @@
 ---
 title: "KUKA youBot Manipulation"
 excerpt: "CoppeliaSim Robot Control".<br/><img src='/images/youbot.gif'>"
-collection: portfolio2
+collection: portfolio
 ---
 
 
