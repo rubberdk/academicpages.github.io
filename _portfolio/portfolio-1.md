@@ -29,7 +29,7 @@ https://github.com/rubberdk/final-project-fast-tower
 # Project Details
 
 ## Gazebo Simulation
-![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_gazebo.jpg)<br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_gazebo.png)<br/>
 
 - Baxter Simulator
 - Tool utilized to test code without real robot
@@ -37,7 +37,7 @@ https://github.com/rubberdk/final-project-fast-tower
 - Set cup pose with set_model_state
 
 ## Rviz
-![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_rviz.jpg)<br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_rviz.png)<br/>
 
 - Moveit to set the planning Scene and Rviz visualizer
 - To set the positions of the cups and tables
@@ -46,12 +46,12 @@ https://github.com/rubberdk/final-project-fast-tower
 
 
 ## Robot Control
-![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_control.jpg)<br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_control.png)<br/>
 Let one hand first place what it’s grabbing, then let the other hand grab the next cup to place.
  
 ## Computer Vision
-![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_cv.jpg)<br/>
-![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_cvr.jpg)<br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_cv.png)<br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_cvr.png)<br/>
 
 - We used a aprtiltag_ros which is a ROS wrapper of the AprilTag to get x,y,z positions of the cups.
 - We mainly used the Baxter's right hand camera for tag deteection,but we gave options to use left camera or the head camera.
