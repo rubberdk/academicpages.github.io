@@ -18,18 +18,18 @@ https://github.com/rubberdk/final-project-fast-tower
 # Demonstration
 
 10 Cups Tower <br/>
-[![](http://img.youtube.com/vi/YzLpgf8ozkA/0.jpg)](http://www.youtube.com/watch?v=YzLpgf8ozkA "")
+![](http://img.youtube.com/vi/YzLpgf8ozkA/0.jpg)](http://www.youtube.com/watch?v=YzLpgf8ozkA "")
 
 6 Cups Tower <br/>
-[![](http://img.youtube.com/vi/H2U9Fk785CE/0.jpg)](http://www.youtube.com/watch?v=H2U9Fk785CE "")
+![](http://img.youtube.com/vi/H2U9Fk785CE/0.jpg)](http://www.youtube.com/watch?v=H2U9Fk785CE "")
 
 6 Cups sorting <br/>
-[![](http://img.youtube.com/vi/yFVovQYhw8g/0.jpg)](http://www.youtube.com/watch?v=yFVovQYhw8g "")
+![](http://img.youtube.com/vi/yFVovQYhw8g/0.jpg)](http://www.youtube.com/watch?v=yFVovQYhw8g "")
 
 # Project Details
 
 ## Gazebo Simulation
-<img src='/images/baxter_gazebo.jpg'><br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_gazebo.jpg)<br/>
 
 - Baxter Simulator
 - Tool utilized to test code without real robot
@@ -37,7 +37,7 @@ https://github.com/rubberdk/final-project-fast-tower
 - Set cup pose with set_model_state
 
 ## Rviz
-<img src='/images/baxter_rviz.jpg'><br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_rviz.jpg)<br/>
 
 - Moveit to set the planning Scene and Rviz visualizer
 - To set the positions of the cups and tables
@@ -46,12 +46,12 @@ https://github.com/rubberdk/final-project-fast-tower
 
 
 ## Robot Control
-<img src='/images/baxter_control.jpg'><br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_control.jpg)<br/>
 Let one hand first place what it’s grabbing, then let the other hand grab the next cup to place.
  
 ## Computer Vision
-<img src='/images/baxter_cv.jpg'><br/>
-<img src='/images/baxter_cvr.jpg'><br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_cv.jpg)<br/>
+![](https://raw.github.com/rubberdk/rubberdk.github.io/master/images/baxter_cvr.jpg)<br/>
 
 - We used a aprtiltag_ros which is a ROS wrapper of the AprilTag to get x,y,z positions of the cups.
 - We mainly used the Baxter's right hand camera for tag deteection,but we gave options to use left camera or the head camera.
