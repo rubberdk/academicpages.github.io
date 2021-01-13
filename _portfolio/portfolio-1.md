@@ -1,5 +1,5 @@
 ---
-title: "BAXTER BUILDS TOWERs WITH CUPS"
+title: "BAXTER BUILDS TOWERS WITH CUPS"
 excerpt: "Rethink Robotics' Baxter sorts and builds towers with plastic cups.<br/><img src='/images/fasttower.gif'>"
 collection: portfolio
 ---
@@ -29,7 +29,7 @@ https://github.com/rubberdk/final-project-fast-tower
 # Project Details
 
 ## Gazebo Simulation
-<img src='/images/baxter_gazebo'><br/>
+<img src='/images/baxter_gazebo.jpg'><br/>
 
 - Baxter Simulator
 - Tool utilized to test code without real robot
@@ -37,7 +37,7 @@ https://github.com/rubberdk/final-project-fast-tower
 - Set cup pose with set_model_state
 
 ## Rviz
-<img src='/images/baxter_rviz'><br/>
+<img src='/images/baxter_rviz.jpg'><br/>
 
 - Moveit to set the planning Scene and Rviz visualizer
 - To set the positions of the cups and tables
@@ -46,12 +46,12 @@ https://github.com/rubberdk/final-project-fast-tower
 
 
 ## Robot Control
-<img src='/images/baxter_control'><br/>
+<img src='/images/baxter_control.jpg'><br/>
 Let one hand first place what it’s grabbing, then let the other hand grab the next cup to place.
  
 ## Computer Vision
-<img src='/images/baxter_cv'><br/>
-<img src='/images/baxter_cvr'><br/>
+<img src='/images/baxter_cv.jpg'><br/>
+<img src='/images/baxter_cvr.jpg'><br/>
 
 - We used a aprtiltag_ros which is a ROS wrapper of the AprilTag to get x,y,z positions of the cups.
 - We mainly used the Baxter's right hand camera for tag deteection,but we gave options to use left camera or the head camera.
