@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# DONGHO 'DK' KANG
+## DONGHO 'DK' KANG
 
 ## Education
 ======
