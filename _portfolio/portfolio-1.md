@@ -1,7 +1,70 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "BAXTER BUILDS TOWERs WITH CUPS"
+excerpt: "Rethink Robotics' Baxter sorts and builds towers with plastic cups.<br/><img src='/images/fasttower.gif'>"
 collection: portfolio
 ---
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
+# Project Overview
+This is a ROS project developed as part of ME495 - Embedded Systems in Robotics course at Northwestern University.
+
+The goal of this project is to use the BAXTER robot and build a "HUGE" tower from plastic cups
+
+You can find the Github repository at the following link: 
+
+https://github.com/rubberdk/final-project-fast-tower
+
+# Demonstration
+
+10 Cups Tower <br/>
+[![](http://img.youtube.com/vi/YzLpgf8ozkA/0.jpg)](http://www.youtube.com/watch?v=YzLpgf8ozkA "")
+
+6 Cups Tower <br/>
+[![](http://img.youtube.com/vi/H2U9Fk785CE/0.jpg)](http://www.youtube.com/watch?v=H2U9Fk785CE "")
+
+6 Cups sorting <br/>
+[![](http://img.youtube.com/vi/yFVovQYhw8g/0.jpg)](http://www.youtube.com/watch?v=yFVovQYhw8g "")
+
+# Project Details
+
+## Gazebo Simulation
+<img src='/images/baxter_gazebo'><br/>
+
+- Baxter Simulator
+- Tool utilized to test code without real robot
+- Get the position of the cups with get_model_state service
+- Set cup pose with set_model_state
+
+## Rviz
+<img src='/images/baxter_rviz'><br/>
+
+- Moveit to set the planning Scene and Rviz visualizer
+- To set the positions of the cups and tables
+- To add the objects to the scene 
+- To return information about the scene
+
+
+## Robot Control
+<img src='/images/baxter_control'><br/>
+Let one hand first place what it’s grabbing, then let the other hand grab the next cup to place.
+ 
+## Computer Vision
+<img src='/images/baxter_cv'><br/>
+<img src='/images/baxter_cvr'><br/>
+
+- We used a aprtiltag_ros which is a ROS wrapper of the AprilTag to get x,y,z positions of the cups.
+- We mainly used the Baxter's right hand camera for tag deteection,but we gave options to use left camera or the head camera.
+- Then simulator.py which is a MoveIt Python API coverts tf data to x,y,z positions and add positions and visual cylinders that represent cups to the scene that can be seen in Rviz
+- Arm_control nodes use those positions for Baxter's task for sorting or building cups
+
+
+# Project Team Members
+
+Dimitrios Chamzas
+
+Dong Ho Kang
+
+Yuxiao Lai
+
+Gabrielle Wink
